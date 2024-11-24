@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/birthday-animal-theme/static/css/main.632a765b.css",
+    "main.js": "/birthday-animal-theme/static/js/main.f662364c.js",
+    "static/js/453.b7c72b0d.chunk.js": "/birthday-animal-theme/static/js/453.b7c72b0d.chunk.js",
+    "static/media/3baby.png": "/birthday-animal-theme/static/media/3baby.8d186d6924a7736b2130.png",
+    "static/media/page_bottom_bar.svg": "/birthday-animal-theme/static/media/page_bottom_bar.5f8405224a36a719ac06.svg",
+    "static/media/hero_bottom1.svg": "/birthday-animal-theme/static/media/hero_bottom1.6ec3daea6f1c4263e4db.svg",
+    "static/media/4baby.png": "/birthday-animal-theme/static/media/4baby.d503b421b292b1ba7022.png",
+    "static/media/6baby.png": "/birthday-animal-theme/static/media/6baby.8ef2e2f18e4fd3dbc3a6.png",
+    "static/media/5baby.png": "/birthday-animal-theme/static/media/5baby.95a23f9b1054e34b9614.png",
+    "static/media/8baby.png": "/birthday-animal-theme/static/media/8baby.581584f883060e1ddb5d.png",
+    "static/media/1baby.png": "/birthday-animal-theme/static/media/1baby.85927d8b0756bf1317f2.png",
+    "static/media/7baby.png": "/birthday-animal-theme/static/media/7baby.7dee183cb95c1938ed43.png",
+    "static/media/2baby.png": "/birthday-animal-theme/static/media/2baby.79cb9a752303db6112bb.png",
+    "static/media/heroBaby-circle.png": "/birthday-animal-theme/static/media/heroBaby-circle.527d25b07c96f6080faa.png",
+    "static/media/circle_frame.png": "/birthday-animal-theme/static/media/circle_frame.c049ef3ddffdcd1f342c.png",
+    "static/media/bottom_grass_green.png": "/birthday-animal-theme/static/media/bottom_grass_green.30f7af53fe48d158b7e9.png",
+    "static/media/top_grass.svg": "/birthday-animal-theme/static/media/top_grass.b4baf3ffb05fdb33f568.svg",
+    "static/media/bottom_grass_shadow.png": "/birthday-animal-theme/static/media/bottom_grass_shadow.a07ee1ba1694acddaefd.png",
+    "static/media/lion.png": "/birthday-animal-theme/static/media/lion.13cd03d56a29ece81420.png",
+    "static/media/panda.png": "/birthday-animal-theme/static/media/panda.729a756fff646327644c.png",
+    "static/media/top_banner.png": "/birthday-animal-theme/static/media/top_banner.2b76a58e81a6e02849c9.png",
+    "static/media/sky_top.png": "/birthday-animal-theme/static/media/sky_top.6034732edbbed133d7e8.png",
+    "static/media/chocolate1.png": "/birthday-animal-theme/static/media/chocolate1.ebb2be5d9fe0bc74744d.png",
+    "static/media/Elephant.png": "/birthday-animal-theme/static/media/Elephant.2ec6ff51eab39f2a1299.png",
+    "static/media/chocolate.png": "/birthday-animal-theme/static/media/chocolate.a1f0a17832c65d69679e.png",
+    "static/media/girafe.png": "/birthday-animal-theme/static/media/girafe.fe97cd54a819308377e5.png",
+    "static/media/hero_balloon.svg": "/birthday-animal-theme/static/media/hero_balloon.a8387b575fe8a97a69be63f3c276ddbe.svg",
+    "index.html": "/birthday-animal-theme/index.html",
+    "main.632a765b.css.map": "/birthday-animal-theme/static/css/main.632a765b.css.map",
+    "main.f662364c.js.map": "/birthday-animal-theme/static/js/main.f662364c.js.map",
+    "453.b7c72b0d.chunk.js.map": "/birthday-animal-theme/static/js/453.b7c72b0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.632a765b.css",
+    "static/js/main.f662364c.js"
+  ]
+}
