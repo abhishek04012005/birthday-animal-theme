@@ -18,32 +18,41 @@
 
 
 
-
-
 .rspv-image-section {
     display: block;
+}
+
+.rspv-image-section-inner  {
+    margin: 50px;
 }
 
 @media (max-width: 1140px) {
 
     .rspv-image-section-inner img {
-        width: 90%; 
+        width: 100%;
+
     }
 
 }
 
 @media (max-width: 899px) {
     .rspv-image-section {
-
+        display: flex;
+        justify-content: center;
+        align-items: end;
         padding: 2rem 0rem;
+        gap: 1rem;
+    }
+
+    .rspv-image-section-inner  {
+        margin: 0;
     }
 
     .rspv-image-section-inner img {
-        width: 30%; 
+        width: 100%; 
     }
 
 }
-
 
 @media (max-width: 500px) {
     .rspv-image-section {
@@ -52,7 +61,7 @@
     }
 
     .rspv-image-section-inner img {
-        width: 50%; 
+        width: 80%; 
     }
 
 }

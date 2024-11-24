@@ -16,13 +16,12 @@ const Navbar = () => {
             <div className='nav-bar'>
                 <div className='nav-item-desktop'>
                     <ul>
-
                         <li><Link to="home-section" smooth={true} duration={800}>Home</Link></li>
                         <li><Link to="story-section" smooth={true} duration={800}>Story</Link></li>
                         <li><Link to="event-section" smooth={true} duration={800}>Event</Link></li>
                         <li><Link to="rspv-section" smooth={true} duration={800}>RSPV</Link></li>
+                        <li><Link to="contact-section" smooth={true} duration={800}>Map</Link></li>
                         <li><Link to="contact-section" smooth={true} duration={800}>Contact Us</Link></li>
-
                     </ul>
                 </div>
 
@@ -39,6 +38,7 @@ const Navbar = () => {
                             <li><Link to="story-section" smooth={true} duration={800} onClick={handleToggle}>Story</Link></li>
                             <li><Link to="event-section" smooth={true} duration={800} onClick={handleToggle}>Event</Link></li>
                             <li><Link to="rspv-section" smooth={true} duration={800} onClick={handleToggle}>RSPV</Link></li>
+                            <li><Link to="contact-section" smooth={true} duration={800}>Map</Link></li>
                             <li><Link to="contact-section" smooth={true} duration={800} onClick={handleToggle}>Contact Us</Link></li>
                         </ul>
                     )}

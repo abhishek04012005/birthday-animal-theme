@@ -1,6 +1,6 @@
 import * as React from 'react';
-import frameCircle from '../../assests/circle_framee.png'
-import childImage from '../../assests/heroBaby.png'
+import frameCircle from '../../assests/circle_frame.png'
+import childImage from '../../assests/heroBaby-circle.png'
 import './Test.css';
 
 

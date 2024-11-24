@@ -6,10 +6,15 @@
     display: block;
 }
 
+.event-image-section-inner  {
+    margin: 50px;
+}
+
 @media (max-width: 1140px) {
 
     .event-image-section-inner img {
         width: 100%;
+
     }
 
 }
@@ -21,6 +26,10 @@
         align-items: end;
         padding: 2rem 0rem;
         gap: 1rem;
+    }
+
+    .event-image-section-inner  {
+        margin: 0;
     }
 
     .event-image-section-inner img {

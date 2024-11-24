@@ -15,10 +15,86 @@
   padding-top: 20px;
 }
 
-.custom-label .MuiFormLabel-root {
-  /* color: #D9D626; */
-  /* Change this to your desired color */
+
+iframe {
+  margin-top: 30px;
+  border: 5px solid #E8DFC1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: 40vh;
 }
+
+
+svg#freepik_stories-ecommerce-web-page:not(.animated) .animable {
+  opacity: 0;
+}
+
+svg#freepik_stories-ecommerce-web-page.animated #freepik--Character--inject-2 {
+  animation: 1.5s Infinite linear shake;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-ecommerce-web-page.animated #freepik--Awning--inject-2 {
+  animation: 1.5s Infinite linear heartbeat;
+  animation-delay: 0s;
+}
+
+@keyframes shake {
+
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1.1);
+  }
+
+  30% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
 
 @media (max-width: 899px) {
 

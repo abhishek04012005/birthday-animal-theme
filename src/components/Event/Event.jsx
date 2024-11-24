@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react';
 import Grid from '@mui/material/Grid';
-import { Typography } from '@mui/material';
-import { Cake, Home, AccessTimeFilled, CalendarMonth } from '@mui/icons-material';
+import { TextField, Button} from '@mui/material';
+import { WhatsApp } from '@mui/icons-material';
 import PageContainer from '../Custom/PageContainer/PageContainer'
 import GirafeImage from '../../assests/animals/girafe.png'
 import LionImage from '../../assests/animals/lion.png'
@@ -11,10 +11,30 @@ import './Event.css'
 
 const Event = () => {
 
+    const [formData, setFormData] = useState({
+
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value
+        });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const { name, subject, message } = formData;
+        const whatsappURL = `https://api.whatsapp.com/send?phone=919264248504&text=${encodeURIComponent(`Name: ${name}\n\n Subject: ${subject}\n\n Message: ${message}`)}`;
+        window.open(whatsappURL, '_blank');
+    };
+
     return (
         <>
             <div id='event-section'>
-                <PageContainer title='Event' >
+                <PageContainer title='Wish' >
                     <Grid container justifyContent="space-around" alignItems="center"   >
                         <Grid item xs={10} md={3} >
                             <div className="event-image-section">
@@ -28,26 +48,19 @@ const Event = () => {
                         </Grid>
                         <Grid item xs={10} md={4} >
                             <div className="grid-header">
-                                <h1 >Birthday Celebration</h1>
-                                <div className="contact-item contact_gap">
-                                    <Typography variant="body1">
-                                        <h4 style={{ display: 'flex' }}><CalendarMonth />&nbsp;<span>22th of October 2024</span></h4>
-                                    </Typography>
-                                    <Typography variant="body1">
-                                        <h4 style={{ display: 'flex' }}><AccessTimeFilled />&nbsp;<span>7:00 PM (IST)</span></h4>
-                                    </Typography>
-                                    <Typography variant="body1">
-                                        <h4 style={{ display: 'flex' }}>
-                                            <Home />&nbsp;<span> Block-B, 701, Ratan Orbit, Indra Nagar Road, Kalayanpur, Kanpur, Uttar Pradesh-208026 </span>
-                                        </h4>
-                                    </Typography>
-                                    <Typography variant="body1">
-                                        <h4 style={{ display: 'flex' }}>
+                                <h1 >Send Your Wish</h1>
 
-                                            <Cake />&nbsp;<span>Wild Animal Party Theme</span>
 
-                                        </h4>
-                                    </Typography>
+                                <div className="contact_gap">
+                                    <form onSubmit={handleSubmit}>
+                                        <TextField label="Name" className="custom-label" required name="name" value={formData.name} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
+                                        <TextField label="Subject" className="custom-label" required name="subject" value={formData.subject} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
+                                        <TextField label="Message" className="custom-label" required name="message" value={formData.message} onChange={handleChange}
+                                            variant="outlined" margin="normal" fullWidth multiline rows={4} />
+                                        <Button type='submit' variant="contained" sx={{ backgroundColor: '#244E3C', color: 'white', mt: 2 }} fullWidth>
+                                            <WhatsApp /> &nbsp; Send
+                                        </Button>
+                                    </form>
                                 </div>
                             </div>
                         </Grid>

@@ -7,6 +7,8 @@ import { Email } from '@mui/icons-material';
 import PageContainer from '../Custom/PageContainer/PageContainer'
 import Cake from '../../assests/cake.png'
 import Ballons from '../../assests/ballons.png'
+import Cap from '../../assests/chocolate1.png'
+import Lolipop from '../../assests/chocolate.png'
 import './RSPV.css'
 
 const RSPV = () => {
@@ -84,6 +86,9 @@ const RSPV = () => {
                                 <div className='rspv-image-section-inner'>
                                     <img src={Cake} alt="" />
                                 </div>
+                                <div className='rspv-image-section-inner'>
+                                    <img src={Cap} alt="" />
+                                </div>
                             </div>
                         </Grid>
 
@@ -133,6 +138,9 @@ const RSPV = () => {
                             <div className="rspv-image-section">
                                 <div className='rspv-image-section-inner'>
                                     <img src={Ballons} alt="" />
+                                </div>
+                                <div className='rspv-image-section-inner'>
+                                    <img src={Lolipop} alt="" />
                                 </div>
                             </div>
                         </Grid>
